@@ -5,7 +5,7 @@ optimization (MOSO) problems that have been solved with ParMOO with the
 corresponding solver scripts.
 
 These scripts and the corresponding version of the ParMOO software are
-available under a [BSD 3-clause license](LICENSE.md).
+available under a [BSD 3-clause license](LICENSE).
 
 This work is associated with a journal article titled
 *Designing a Framework for Solving Multiobjective Simulation Optimization Problems*
