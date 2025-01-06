@@ -19,14 +19,25 @@ https://doi.org/10.1287/ijoc.2023.0250
 ## Citing
 
 To cite this work, it is recommended to please cite the
-[corresponding journal article](https://doi.org/10.1287/ijoc.2023.0250).
+[corresponding journal article](https://doi.org/10.1287/ijoc.2023.0250):
+```
+@article{chang2024,
+  author =        {Chang, Tyler H. and Wild, Stefan M.},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {Designing a Framework for Solving Multiobjective Simulation Optimization Problems},
+  year =          {2025},
+  doi =           {10.1287/ijoc.2023.0250.cd},
+  note =          {To Appear},
+}
+```
+
 The repository itself can be cited with the following BibTex.
 
 ```
 @misc{chang2024,
   author =        {Chang, Tyler H. and Wild, Stefan M.},
   publisher =     {INFORMS Journal on Computing},
-  title =         {Designing a Framework for Solving Multiobjective Simulation Optimization Problems},
+  title =         {Repository for ``Designing a Framework for Solving Multiobjective Simulation Optimization Problems''},
   year =          {2024},
   doi =           {10.1287/ijoc.2023.0250.cd},
   note =          {Available for download at https://github.com/INFORMSJoC/2023.0250},
@@ -36,7 +47,7 @@ The repository itself can be cited with the following BibTex.
 ## Reproducing Results
 
 The `scripts` directory contains several subdirectories for reproducing the
-experiments from Sections 4-6 the paper.
+experiments from Sections 4-6 of the paper.
 
 ### Setup and Installation
 
@@ -58,14 +69,14 @@ each of the corresponding subdirectories.
 
 The raw performance data from our running of the above scripts are contained in
 the `results` subdirectory.  This data is presented in Sections 4, 5, and 6 of
-the journal article.
+the [corresponding journal article](https://doi.org/10.1287/ijoc.2023.0250).
 
 ## Continued Development
 
 ParMOO is under continuous development.  For the latest version of the ParMOO
 library
 
- * visit our [GitHub](https://github.com/parmoo/parmoo) page or
+ * visit our [GitHub page](https://github.com/parmoo/parmoo) or
  * view our documentation on [ReadTheDocs](https://parmoo.readthedocs.org)
 
 Or contact our e-mail/support
@@ -74,7 +85,7 @@ Or contact our e-mail/support
 
 The solvers in this repository (within the `scripts` subdirectory) are fixed to
 the version of ParMOO at the time of publication.  Updated versions may appear
-in the future in the following repository
+in the future in the repository
 
  * visit the [ParMOO Solver Farm](https://github.com/parmoo/parmoo-solver-farm).
 
