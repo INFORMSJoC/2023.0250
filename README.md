@@ -23,7 +23,7 @@ To cite this work, it is recommended to please cite the
 ```
 @article{chang2024,
   author =        {Chang, Tyler H. and Wild, Stefan M.},
-  publisher =     {INFORMS Journal on Computing},
+  journal =       {INFORMS Journal on Computing},
   title =         {Designing a Framework for Solving Multiobjective Simulation Optimization Problems},
   year =          {2025},
   doi =           {10.1287/ijoc.2023.0250.cd},
