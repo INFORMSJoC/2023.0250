@@ -76,4 +76,4 @@ file. The results of our experiments are saved in:
    number from each experiment, respectively.
    Within each file, each line contains values: ``walltime, hypervolume``,
    and the lines are ordered in increasing number of parallel threads,
-   speficially 1, 2, 4, 8.
+   specifically 1, 2, 4, 8.
