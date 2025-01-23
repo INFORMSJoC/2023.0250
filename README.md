@@ -71,6 +71,16 @@ The raw performance data from our running of the above scripts are contained in
 the `results` subdirectory.  This data is presented in Sections 4, 5, and 6 of
 the [corresponding journal article](https://doi.org/10.1287/ijoc.2023.0250).
 
+## ParMOO Submodule
+
+For additional local archival processes, the ParMOO source code is made available
+in this repository via a git submodule in the `src` subdirectory.
+The latest version of this source can be obtained by issuing
+`git submodule update --init --recursive` from within this repository.
+The submodule is included here purely for INFORMS Journal of Computing archival
+purposes; we recommend that users obtain the latest version of ParMOO following
+the below.
+
 ## Continued Development
 
 ParMOO is under continuous development.  For the latest version of the ParMOO
