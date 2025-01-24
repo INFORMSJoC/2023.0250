@@ -1,0 +1,3 @@
+[submodule "src/parmoo"]
+	path = src/parmoo
+	url = https://github.com/parmoo/parmoo
