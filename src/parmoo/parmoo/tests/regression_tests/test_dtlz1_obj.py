@@ -1,3 +1,6 @@
+# This is an archival version of ParMOO v0.4.1 for INFORMSJoC; users should
+# to obtain the latest ParMOO source at https://github.com/parmoo/parmoo
+#
 
 """ Use ParMOO to solve the DTLZ1 problem, treating DTLZ1 as an objective.
 

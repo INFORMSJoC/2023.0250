@@ -1,3 +1,6 @@
+# This is an archival version of ParMOO v0.4.1 for INFORMSJoC; users should
+# to obtain the latest ParMOO source at https://github.com/parmoo/parmoo
+#
 
 DTYPE = [("x1", "f8"), ("x2", "f8"), ("x3", "f8"), ("x4", "f8"), ("x5", "f8")]
 ONES = {"x1": 0.6, "x2": 0.6, "x3": 0.6, "x4": 0.6, "x5": 0.6}
