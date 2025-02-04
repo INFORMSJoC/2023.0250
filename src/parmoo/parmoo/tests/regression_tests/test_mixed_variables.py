@@ -1,3 +1,6 @@
+# This is an archival version of ParMOO v0.4.1 for INFORMSJoC; users should
+# to obtain the latest ParMOO source at https://github.com/parmoo/parmoo
+#
 
 """ Use ParMOO to solve a convex, user-defined problem, with mixed variables
 (continuous, integer, categorical, and custom).

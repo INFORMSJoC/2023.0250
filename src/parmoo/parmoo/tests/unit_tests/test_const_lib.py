@@ -1,3 +1,6 @@
+# This is an archival version of ParMOO v0.4.1 for INFORMSJoC; users should
+# to obtain the latest ParMOO source at https://github.com/parmoo/parmoo
+#
 def test_single_sim_bound_unnamed():
     """ Test the single_sim_bound() constraint function.
 

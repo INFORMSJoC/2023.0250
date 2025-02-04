@@ -1,3 +1,6 @@
+# This is an archival version of ParMOO v0.4.1 for INFORMSJoC; users should
+# to obtain the latest ParMOO source at https://github.com/parmoo/parmoo
+#
 """ This module contains private methods for hosting and receiving callbacks
 from an interactiv dashboard. This module is intended only for developer use.
 
