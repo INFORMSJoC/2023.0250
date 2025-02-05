@@ -78,35 +78,13 @@ The raw performance data from our running of the above scripts are contained in
 the `results` subdirectory.  This data is presented in Sections 4, 5, and 6 of
 the [corresponding journal article](https://doi.org/10.1287/ijoc.2023.0250).
 
-## Alternative ParMOO Submodule Installation
+## Archival ParMOO Source (Not Recommended)
 
-For additional local archival processes, the ParMOO source code is made available
-in this repository via a git submodule in the `src/parmoo` subdirectory.
+For INFORMS Journal of Computing archival purposes, a snapshot of the ParMOO ``v0.2.2`` source
+code is made available in this repository via the `src/parmoo_v022` subdirectory. 
+We used ``v0.2.2`` for the ``results`` and ``scripts`` in this repository.
 
-If the archived version needs to be retrieved, then the latest version of this source
-can be obtained by changing into the `src/parmoo` subdirectory and initializing the
-repository.
-
-```
-cd src/parmoo
-git submodule update --init --recursive
-```
-
-In order to use a specific version of ParMOO, the user must check-out the correct
-version (again, we used ``v0.2.2`` for the ``results`` and ``scripts`` in this
-repository).
-
-```
-git checkout tags/<tag>
-```
-
-The code in the submodule can be installed to make it available on the system, e.g., via pip:
-
-```
-pip install -e ".[extras]"
-```
-
-Again, the submodule is included here primarily for INFORMS Journal of Computing archival
+Again, this snapshot source is included here solely for INFORMS Journal of Computing archival
 purposes; we recommend that users obtain the latest version of ParMOO using any of the links
 listed below.
 
