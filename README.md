@@ -111,9 +111,56 @@ in a subdirectory thereof.
 
 ## Results
 
-The raw performance data from our experiments are contained in the `results`
-subdirectory.  This data is presented in Sections 4, 5, and 6 of the
+The raw performance data from our experiments are contained in the
+`results/section-x` subdirectories.  This data is presented in Sections 4, 5,
+and 6 of the
 [corresponding journal article](https://doi.org/10.1287/ijoc.2023.0250).
+
+Table 2 (from Section 4) of the paper shows the hypervolume indicator for pymoo
+and various configurations of ParMOO when solving the DTLZ2 test problem from
+the literature with batch sizes 8, 16, 32. Larger values are better.
+
+|Method      | pymoo | ParMOO-8 | ParMOO-16 | ParMOO-32 |
+|------------|-------|----------|-----------|-----------|
+|Hypervolume | 0.28  | 0.33     | 0.33      | 0.37      |
+
+Figure 4 (from Section 4) of the paper shows the walltimes when performing
+1,000 1-3 second simulation evaluations in ParMOO (with batch sizes 8, 16, and
+32) with increasing number of threads.
+
+![Figure 4](results/section-4/plots/dtlz2_walltimes.png)
+
+Figure 5 (from Section 5) of the paper shows the iteration vs. $\chi^2$ loss
+when solving the Fayans EDF calibration with ParMOO, exploiting the
+sum-of-squares structure (structured) and with a standard (black-box) approach.
+The total simulations used by the end of iteration $k$ are calculated as
+$2000 + 10k$.
+
+![Figure 5](results/section-5/plots/fayans_chisquared_convergence.png)
+
+Figure 6 (from Section 5) of the paper shows the iteration vs. percentage
+hypervolume improvement when solving the Fayans EDF calibration with ParMOO,
+exploiting the sum-of-squares structure (structured) and with a standard
+(black-box) approach. The total simulations used by the end of iteration $k$
+are calculated as $2000 + 10k$.
+
+![Figure 6](results/section-5/plots/fayans_hypervol_convergence.png)
+
+Figure 7 (from Section 6) of the paper shows the iteration vs. minimum reaction
+time that achieves at least a 75% conversion rate when solving the CFR chemical
+manufacturing problem with ParMOO, exploiting the heterogeneous structure
+(structured) and with a standard (black-box) approach. The total simulations
+used by the end of iteration $k$ are calculated as $50 + 3k$.
+
+![Figure 7](results/section-6/plots/cfr_reactiontime_convergence.png)
+
+Figure 8 (from Section 6) of the paper shows the iteration vs. percentage
+hypervolume improvement when solving the CFR chemical manufacturing problem
+with ParMOO, exploiting the heterogeneous structure (structured) and with a
+standard (black-box) approach. The total simulations used by the end of
+iteration $k$ are calculated as $50 + 3k$.
+
+![Figure 8](results/section-6/plots/cfr_hypervol_convergence.png)
 
 ## Continued Development
 
