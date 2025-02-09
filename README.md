@@ -8,12 +8,12 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [BSD
 
 This repository contains several multiobjective simulation optimization (MOSO)
 problem definitions, scripts for solving those problems with an archived
-version of the ParMOO software, and an archived version of the ParMOO software.
+version ([v0.2.2](https://github.com/parmoo/parmoo/releases/tag/v0.2.2)) of the ParMOO software, and an archived version of the ParMOO software.
 The data collected in this repository were used in the research reported on in
 the paper
 
 [Designing a Framework for Solving Multiobjective Simulation Optimization
-Problems](https://doi.org/10.1287/ijoc.2023.0250) by T. H. Chang and S. M. Wild.
+Problems](https://doi.org/10.1287/ijoc.2023.0250) by Tyler H. Chang and Stefan M. Wild.
 
 **Important**:  Both ParMOO and the solver farm are under active development.
 For information on how to obtain the latest version, see the instructions in
@@ -21,8 +21,8 @@ For information on how to obtain the latest version, see the instructions in
 
 ## Cite
 
-To cite the contents of this repository, one cane cite both the paper and this
-repo using their respective DOIs.
+To cite the contents of this repository, one can cite both the paper and this
+repo using their respective DOIs:
 
 [The journal article](https://doi.org/10.1287/ijoc.2023.0250):
 
@@ -54,12 +54,12 @@ repo using their respective DOIs.
 
 The goal of this repository is to:
 
- 1) Provide access to the test problems we used for benchmarking ParMOO in the
+ 1) Provide access to the test problems used for benchmarking ParMOO in the
     paper;
  2) Provide samples scripts demonstrating how ParMOO can be used to build
     solvers for these problems; and
- 3) Provide archives/references for the correct version of ParMOO and any other
-    dependencies for reproducing our results.
+ 3) Provide archives/references for the correct version of ParMOO and other
+    dependencies for reproducing the reported results.
 
 The `scripts` directory contains several subdirectories for reproducing the
 experiments from Sections 4-6 of the paper.
@@ -74,7 +74,7 @@ versions are now available -- see
 
 ## Setup and Installation
 
-To use or compare against any of the sample problem, enter into the
+To use or compare against any of the sample problems, enter into the
 appropriate `scripts` subdirectory (labeled for the corresponding sections in
 the paper) and ``pip``-install the ``REQUIREMENTS``
 file for that example.
@@ -85,8 +85,8 @@ python3 -m pip install -r REQUIREMENTS.txt
 ```
 
 Note that the above instructions will install a specific older release of
-ParMOO (v0.2.2), as was used in our experiments.  However, newer releases of
-ParMOO can be obtained by following the links in
+ParMOO (v0.2.2), as was used in the reported experiments.  However, newer
+releases of ParMOO can be obtained by following the links in
 [Continued Development](https://github.com/INFORMSJoC/2023.0250?tab=readme-ov-file#continued-development)
 
 ### Archival ParMOO Source (Not Recommended)
